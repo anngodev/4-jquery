@@ -1,10 +1,6 @@
 // this is equivalent to document.getElementById
-$("#circle").click(function() {
-	alert("Circle was clicked!");
-});
-
-$(".square").click(function() {
-	alert("Square was clicked!");
+$("#circle").hover(function() {
+	$("iframe").attr("src", "http://www.foxnews.com");
 });
 
 // can able to target divs
