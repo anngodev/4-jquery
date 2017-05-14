@@ -6,6 +6,10 @@
 	margin: 5px;
 }
 
+#newText {
+	display: none;
+}
+
 .square {
 	width: 200px;
 	height: 200px;
