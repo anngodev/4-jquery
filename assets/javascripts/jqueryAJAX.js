@@ -8,6 +8,6 @@ $.ajax("info.txt")
 		$("p").html(data);
 
 	})
-		.fail(funciton() {
+		.fail(function() {
 		alert("Could not get data")
 	});
