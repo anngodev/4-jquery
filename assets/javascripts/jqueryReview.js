@@ -25,20 +25,32 @@
 // 	});
 // });
 
-$("#fadeOut").click(function() {
-	$("#oldText").fadeOut("slow");
-});
+// $("#fadeOut").click(function() {
+// 	$("#oldText").fadeOut("slow");
+// });
 
-$("#fadeIn").click(function() {
-	$("#newText").fadeIn("slow");
-});
+// $("#fadeIn").click(function() {
+// 	$("#newText").fadeIn("slow");
+// });
 
-$("#toggle").click(function() {
-	if ($("#toggleText").css("display") == "none") {
-		$("#toggleText").fadeIn("slow")
-	} else {
-		$("#toggleText").fadeOut("slow");
-	}
+// $("#toggle").click(function() {
+// 	if ($("#toggleText").css("display") == "none") {
+// 		$("#toggleText").fadeIn("slow");
+// 	} else {
+// 		$("#toggleText").fadeOut("slow");
+// 	}
+// });
+
+$("#circle").click(function() {
+	$(this).animate({
+		width:"400px", 
+		height:"400px",
+		marginLeft:"100px",
+		marginTop:"100px"
+	}, 2000, function() {
+		$(this).css("background-color", "red");
+
+	});
 });
 
 
